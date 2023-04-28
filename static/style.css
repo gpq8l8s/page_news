@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:#000;
+}
+
+h1 {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+section > div {
+    padding: 20px 30px;
+    border: solid #000;
+    border-width: 1px 0px 1px 0px;
+}
+
+section > div > a {
+    text-decoration: none;
+    list-style: none;
+}
+
+section > div > a > h2 {
+    margin-bottom: 10px;
+    line-height: .8;
+}
+
+.publiched {
+    color: #9d9d9d;
+}
